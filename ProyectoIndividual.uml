@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_35qsYFsYEeqdy_5Uuqgu6Q" name="ProyectoIndividual">
+    <eAnnotations xmi:id="_9tRpwFsYEeqdy_5Uuqgu6Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_9tRpwVsYEeqdy_5Uuqgu6Q" source="codegen">
+        <details xmi:id="_9tSQ0FsYEeqdy_5Uuqgu6Q" key="codegenDirectory" value="/ProyectoIndividual/src"/>
+        <details xmi:id="_-UL4wFsYEeqdy_5Uuqgu6Q" key="AssociatedSourceCode" value="/ProyectoIndividual/src/cl/awakelab/cquintanilla/Ejecutable.java;2547863055/1;/ProyectoIndividual/src/cl/awakelab/cquintanilla/Electrodomestico.java;3748331730/1;/ProyectoIndividual/src/cl/awakelab/cquintanilla/Lavadora.java;626579531/1;/ProyectoIndividual/src/cl/awakelab/cquintanilla/Television.java;456806567/1;/ProyectoIndividual/src/cl/awakelab/cquintanilla/NewClass1.java;2326420456/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_9tXJUFsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_9tXwYFsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_9tXwYVsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_9tXwYlsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_9tYXcFsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_9tYXcVsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_9tYXclsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_9tY-gFsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_9tazsFsYEeqdy_5Uuqgu6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9rYzYFsYEeqdy_5Uuqgu6Q" name="cl">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9re6AFsYEeqdy_5Uuqgu6Q" name="awakelab">
+        <packagedElement xmi:type="uml:Package" xmi:id="_9rv_wFsYEeqdy_5Uuqgu6Q" name="cquintanilla">
+          <packagedElement xmi:type="uml:Class" xmi:id="_9ssa8FsYEeqdy_5Uuqgu6Q" name="Ejecutable">
+            <ownedComment xmi:id="_9w_sIFsYEeqdy_5Uuqgu6Q">
+              <body>Ejecutable Main&#xD;
+@author Quintanilla&#xD;
+ *</body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9wq8AFsYEeqdy_5Uuqgu6Q" name="main" specification="_9tdP8FsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9wrjEFsYEeqdy_5Uuqgu6Q" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9wrjEVsYEeqdy_5Uuqgu6Q" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>/**&#xD;
+		 * Se crea arreglo de 10 posiciones, y su correspondiente llenado&#xD;
+		 */&#xD;
+		Electrodomestico [] tecno = new Electrodomestico[10];&#xD;
+		&#xD;
+		tecno[0] = new Electrodomestico(3333,4);&#xD;
+		tecno[1] = new Electrodomestico(40000, 2);&#xD;
+		tecno[2] = new Electrodomestico(100, &quot;amarillo&quot;, 'a', 25);&#xD;
+		tecno[3] = new Television(5000, &quot;azul&quot;, 'd', 7, 80, false);&#xD;
+		tecno[4] = new Television(10000, 3);&#xD;
+		tecno[5] = new Television(200, &quot;verde&quot;, 'c', 5, 8, true);&#xD;
+		tecno[6] = new Television();&#xD;
+		tecno[7] = new Lavadora(333,5);&#xD;
+		tecno[8] = new Lavadora(5555, 45);&#xD;
+		tecno[9] = new Lavadora(999, &quot;azul&quot;, 'b', 50, 40);&#xD;
+		&#xD;
+		&#xD;
+		/**&#xD;
+		 * For each para recorrer el array&#xD;
+		 */&#xD;
+		for (int i = 0; i &lt; tecno.length; i++) {&#xD;
+			System.out.println(&quot;Precio recio final de &quot; + tecno[i].getClass().getSimpleName()+ &quot; es de $&quot; +tecno[i].precioFinal());&#xD;
+	}&#xD;
+		double precioTecno = 0;&#xD;
+		double precioLavadoraFinal = 0;&#xD;
+		double precioTelevisorFinal = 0;&#xD;
+		&#xD;
+		for (int i = 0; i &lt; tecno.length; i++) {&#xD;
+			if (tecno[i] instanceof Electrodomestico) {&#xD;
+				precioTecno = precioTecno + tecno[i].precioFinal();&#xD;
+			}&#xD;
+			if (tecno[i] instanceof Lavadora) {&#xD;
+				precioLavadoraFinal = precioLavadoraFinal + tecno[i].precioFinal();&#xD;
+			}&#xD;
+			if (tecno[i] instanceof Television) {&#xD;
+				precioTelevisorFinal = precioTelevisorFinal + tecno[i].precioFinal();&#xD;
+			}&#xD;
+			&#xD;
+		}&#xD;
+		System.out.println(&quot;***********Suma de precios******************&quot;);&#xD;
+		System.out.println(&quot;Suma total Precio Electrodomestico: $&quot; + precioTecno);&#xD;
+		System.out.println(&quot;Suma total Precio Televisión: $&quot; + precioTelevisorFinal);&#xD;
+		System.out.println(&quot;Suma total Precio Lavadora: $&quot; + precioLavadoraFinal);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_9tdP8FsYEeqdy_5Uuqgu6Q" name="main" isStatic="true" method="_9wq8AFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9td3AFsYEeqdy_5Uuqgu6Q" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9tnoAFsYEeqdy_5Uuqgu6Q" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9to2IFsYEeqdy_5Uuqgu6Q" name="Electrodomestico">
+            <ownedAttribute xmi:id="_9v8jQFsYEeqdy_5Uuqgu6Q" name="precio" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9v9xYFsYEeqdy_5Uuqgu6Q" name="color" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9v-YcFsYEeqdy_5Uuqgu6Q" name="consumo" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9v-_gFsYEeqdy_5Uuqgu6Q" name="peso" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wJXkFsYEeqdy_5Uuqgu6Q" name="PRECIO_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wJ-oFsYEeqdy_5Uuqgu6Q" value="100"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wJ-oVsYEeqdy_5Uuqgu6Q" name="COLOR_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wKlsFsYEeqdy_5Uuqgu6Q" value="&quot;blanco&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wLMwFsYEeqdy_5Uuqgu6Q" name="CONSUMO_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wLMwVsYEeqdy_5Uuqgu6Q" value="'F'"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wLz0FsYEeqdy_5Uuqgu6Q" name="PESO_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wLz0VsYEeqdy_5Uuqgu6Q" value="5"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w1UEFsYEeqdy_5Uuqgu6Q" name="Electrodomestico" specification="_9ttuoFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w1UEVsYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>this.precio = PRECIO_DEF;&#xD;
+		this.color = COLOR_DEF;&#xD;
+		this.consumo = CONSUMO_DEF;&#xD;
+		this.peso = PESO_DEF;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w17IFsYEeqdy_5Uuqgu6Q" name="Electrodomestico" specification="_9twK4FsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w17IVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w17IlsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w17I1sYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>this.precio = precio;&#xD;
+		this.peso = peso;&#xD;
+		this.consumo = CONSUMO_DEF;&#xD;
+		this.color = COLOR_DEF;&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w2iMFsYEeqdy_5Uuqgu6Q" name="Electrodomestico" specification="_9tynIFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w2iMVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3JQFsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3JQVsYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3JQlsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3JQ1sYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>this.precio = precio;&#xD;
+		this.color = color;&#xD;
+		this.consumo = consumo;&#xD;
+		this.peso = peso;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w3wUFsYEeqdy_5Uuqgu6Q" name="comprobarConsumo" specification="_9t1DYFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w3wUVsYEeqdy_5Uuqgu6Q" name="letra">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3wUlsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if((letra >= 65 &amp;&amp; letra &lt;= 70) || (letra >= 97 &amp;&amp; letra &lt;= 102) ) {&#xD;
+			return true;&#xD;
+		}&#xD;
+		return false;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w3wU1sYEeqdy_5Uuqgu6Q" name="comprobarColor" specification="_9t24kFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w3wVFsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w3wVVsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (color.equalsIgnoreCase(&quot;negro&quot;) || color.equalsIgnoreCase(&quot;rojo&quot;) || color.equalsIgnoreCase(&quot;azul&quot;)&#xD;
+				|| color.equalsIgnoreCase(&quot;gris&quot;)) {&#xD;
+			return true;&#xD;
+		} else {&#xD;
+			return false;&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w4XYFsYEeqdy_5Uuqgu6Q" name="precioFinal" specification="_9t4GsFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w4XYVsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>int precioConsumo = 0;&#xD;
+		&#xD;
+		if(this.consumo == 65 || this.consumo == 97) {&#xD;
+			precioConsumo = 100; &#xD;
+		}else if (this.consumo == 66 || this.consumo == 98) {&#xD;
+			precioConsumo = 80;&#xD;
+		}else if (this.consumo == 67 || this.consumo == 99) {&#xD;
+			precioConsumo = 60;&#xD;
+		}else if (this.consumo == 68 || this.consumo == 100) {&#xD;
+			precioConsumo = 50;&#xD;
+		}else if (this.consumo == 69 || this.consumo == 101) {&#xD;
+			precioConsumo = 30;&#xD;
+		}else if (this.consumo == 70 || this.consumo == 102) {&#xD;
+			precioConsumo = 10;&#xD;
+		}&#xD;
+		int precioProducto = 0;&#xD;
+		int precioPeso = 0;&#xD;
+		if(this.peso >= 0 &amp;&amp; this.peso &lt;= 19) {&#xD;
+			precioPeso = 10;&#xD;
+		}else if(this.peso >= 20 &amp;&amp; this.peso &lt;= 49) {&#xD;
+			precioPeso = 50;&#xD;
+		}else if(this.peso >= 50 &amp;&amp; this.peso &lt;= 79) {&#xD;
+			precioPeso = 80;&#xD;
+		}else if (this.peso >=80) {&#xD;
+			precioPeso = 100;&#xD;
+		}&#xD;
+		&#xD;
+		precioProducto = this.precio + precioConsumo + precioPeso;&#xD;
+		&#xD;
+		return precioProducto;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_9ttuoFsYEeqdy_5Uuqgu6Q" name="Electrodomestico" method="_9w1UEFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9tuVsFsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9tuVsVsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9tu8wFsYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9twK4FsYEeqdy_5Uuqgu6Q" name="Electrodomestico" method="_9w17IFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9twx8FsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9twx8VsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9twK4VsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9twK4lsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9twx8lsYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9tynIFsYEeqdy_5Uuqgu6Q" name="Electrodomestico" method="_9w2iMFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9tz1QFsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9tz1QVsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9tzOMFsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9tzOMVsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9tzOMlsYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9tzOM1sYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9tz1QlsYEeqdy_5Uuqgu6Q" type="_9to2IFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9t1DYFsYEeqdy_5Uuqgu6Q" name="comprobarConsumo" method="_9w3wUFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9t1DYVsYEeqdy_5Uuqgu6Q" name="letra">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9t1qcFsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9t24kFsYEeqdy_5Uuqgu6Q" name="comprobarColor" method="_9w3wU1sYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9t24kVsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9t3foFsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9t4GsFsYEeqdy_5Uuqgu6Q" name="precioFinal" method="_9w4XYFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9t4GsVsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9t7KAFsYEeqdy_5Uuqgu6Q" name="Lavadora">
+            <ownedComment xmi:id="_9xATMFsYEeqdy_5Uuqgu6Q">
+              <body>Subclase Lavadora hereda de Electrodomestico&#xD;
+@author Quintanilla&#xD;
+ *</body>
+            </ownedComment>
+            <generalization xmi:id="_9v11kFsYEeqdy_5Uuqgu6Q" general="_9to2IFsYEeqdy_5Uuqgu6Q"/>
+            <ownedAttribute xmi:id="_9wNB8FsYEeqdy_5Uuqgu6Q" name="carga" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wPeMFsYEeqdy_5Uuqgu6Q" name="CARGA_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wQFQFsYEeqdy_5Uuqgu6Q" value="5"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w5lgFsYEeqdy_5Uuqgu6Q" name="Lavadora" specification="_9t8_MFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w5lgVsYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.carga = CARGA_DEF;&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w6MkFsYEeqdy_5Uuqgu6Q" name="Lavadora" specification="_9t-NUFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w6MkVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6MklsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6Mk1sYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super(precio, peso);&#xD;
+		this.carga = CARGA_DEF;&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w6zoFsYEeqdy_5Uuqgu6Q" name="Lavadora" specification="_9uApkFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w6zoVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6zolsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6zo1sYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6zpFsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6zpVsYEeqdy_5Uuqgu6Q" name="carga">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w6zplsYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super(precio, color, consumo, peso);&#xD;
+		this.carga = carga;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w7asFsYEeqdy_5Uuqgu6Q" name="precioFinal" specification="_9uCewFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w7asVsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>int precioCarga=0;&#xD;
+		double precioLavadora = 0;&#xD;
+		if (carga >=30) {&#xD;
+			precioCarga += 50;&#xD;
+			&#xD;
+			precioLavadora = super.precioFinal() + precioCarga;&#xD;
+			&#xD;
+			return precioLavadora;&#xD;
+		}&#xD;
+		return precioLavadora;&#xD;
+	&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w7aslsYEeqdy_5Uuqgu6Q" name="toString" specification="_9uDs4FsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w7as1sYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;Lavadora [carga=&quot; + carga + &quot;, precioFinal()=&quot; + precioFinal() + &quot;, toString()=&quot; + super.toString()&#xD;
+				+ &quot;]&quot;;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_9t8_MFsYEeqdy_5Uuqgu6Q" name="Lavadora" method="_9w5lgFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9t8_MVsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9t8_MlsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9t8_M1sYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9t-NUFsYEeqdy_5Uuqgu6Q" name="Lavadora" method="_9w6MkFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9t-0YFsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9t-0YVsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9t-NUVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9t-NUlsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9t-0YlsYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uApkFsYEeqdy_5Uuqgu6Q" name="Lavadora" method="_9w6zoFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9uB3sVsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9uB3slsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9uApkVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uBQoFsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uBQoVsYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uBQolsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uB3sFsYEeqdy_5Uuqgu6Q" name="carga">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uB3s1sYEeqdy_5Uuqgu6Q" type="_9t7KAFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uCewFsYEeqdy_5Uuqgu6Q" name="precioFinal" method="_9w7asFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9uDF0FsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uDs4FsYEeqdy_5Uuqgu6Q" name="toString" method="_9w7aslsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9uET8FsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9uPTEFsYEeqdy_5Uuqgu6Q" name="Television">
+            <ownedComment xmi:id="_9xA6QFsYEeqdy_5Uuqgu6Q">
+              <body>Subclase Television hereda de Electrodomestico&#xD;
+@author Quintanilla&#xD;
+ *</body>
+            </ownedComment>
+            <generalization xmi:id="_9v3qwFsYEeqdy_5Uuqgu6Q" general="_9to2IFsYEeqdy_5Uuqgu6Q"/>
+            <ownedAttribute xmi:id="_9wQsUFsYEeqdy_5Uuqgu6Q" name="resolucion" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wRTYFsYEeqdy_5Uuqgu6Q" name="sintonizador" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wR6cFsYEeqdy_5Uuqgu6Q" name="RESOLUCION_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wShgFsYEeqdy_5Uuqgu6Q" value="20"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9wTIkFsYEeqdy_5Uuqgu6Q" name="SINTONIZADOR_DEF" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_9wTIkVsYEeqdy_5Uuqgu6Q" value="false"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w8BwFsYEeqdy_5Uuqgu6Q" name="Television" specification="_9uRvUFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w8BwVsYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.resolucion = RESOLUCION_DEF;&#xD;
+		this.sintonizador = SINTONIZADOR_DEF;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w8o0FsYEeqdy_5Uuqgu6Q" name="Television" specification="_9uS9cFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w8o0VsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w8o0lsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w8o01sYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super(precio, peso);&#xD;
+		this.resolucion = RESOLUCION_DEF;&#xD;
+		this.sintonizador = SINTONIZADOR_DEF;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w9P4FsYEeqdy_5Uuqgu6Q" name="Television" specification="_9uWAwFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w9P4VsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P4lsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P41sYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P5FsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P5VsYEeqdy_5Uuqgu6Q" name="resolucion">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P5lsYEeqdy_5Uuqgu6Q" name="sintonizador">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9w9P51sYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+              <language>java</language>
+              <body>super(precio, color, consumo, peso);&#xD;
+		this.resolucion = resolucion;&#xD;
+		this.sintonizador = sintonizador;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w928FsYEeqdy_5Uuqgu6Q" name="precioFinal" specification="_9uX18FsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w928VsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>double precioResolucion = 0;&#xD;
+		double precioSintonizador = 0;&#xD;
+		double precioTelevision = 0;&#xD;
+		if(this.resolucion > 40) {&#xD;
+			precioResolucion = (float)((super.getPrecio())*0.3);&#xD;
+		}&#xD;
+		if(this.isSintonizador()) {&#xD;
+			precioSintonizador = 50;&#xD;
+		}&#xD;
+		&#xD;
+		precioTelevision = super.getPrecio()+ precioResolucion + precioSintonizador;&#xD;
+		&#xD;
+		return precioTelevision;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9w-eAFsYEeqdy_5Uuqgu6Q" name="toString" specification="_9uZEEFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9w-eAVsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;Television [resolucion=&quot; + resolucion + &quot;, sintonizador=&quot; + sintonizador + &quot;, getResolucion()=&quot;&#xD;
+				+ getResolucion() + &quot;, isSintonizador()=&quot; + isSintonizador() + &quot;, precioFinal()=&quot; + precioFinal() + &quot;]&quot;;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_9uRvUFsYEeqdy_5Uuqgu6Q" name="Television" method="_9w8BwFsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9uRvUVsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9uSWYFsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9uSWYVsYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uS9cFsYEeqdy_5Uuqgu6Q" name="Television" method="_9w8o0FsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9uULkFsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9uULkVsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9uTkgFsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uTkgVsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uULklsYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uWAwFsYEeqdy_5Uuqgu6Q" name="Television" method="_9w9P4FsYEeqdy_5Uuqgu6Q">
+              <eAnnotations xmi:id="_9uXO4VsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_9uXO4lsYEeqdy_5Uuqgu6Q" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_9uWAwVsYEeqdy_5Uuqgu6Q" name="precio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uWn0FsYEeqdy_5Uuqgu6Q" name="color">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uWn0VsYEeqdy_5Uuqgu6Q" name="consumo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uWn0lsYEeqdy_5Uuqgu6Q" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uWn01sYEeqdy_5Uuqgu6Q" name="resolucion">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uXO4FsYEeqdy_5Uuqgu6Q" name="sintonizador">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_9uXO41sYEeqdy_5Uuqgu6Q" type="_9uPTEFsYEeqdy_5Uuqgu6Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uX18FsYEeqdy_5Uuqgu6Q" name="precioFinal" method="_9w928FsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9uYdAFsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_9uZEEFsYEeqdy_5Uuqgu6Q" name="toString" method="_9w-eAFsYEeqdy_5Uuqgu6Q">
+              <ownedParameter xmi:id="_9uZrIFsYEeqdy_5Uuqgu6Q" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CZEDcFsZEeqdy_5Uuqgu6Q" name="NewClass1"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9rkZkFsYEeqdy_5Uuqgu6Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9rlAoFsYEeqdy_5Uuqgu6Q" name="util"/>
+    </packagedElement>
+    <profileApplication xmi:id="_9stpEFsYEeqdy_5Uuqgu6Q">
+      <eAnnotations xmi:id="_9s7rgFsYEeqdy_5Uuqgu6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9uGwMFsYEeqdy_5Uuqgu6Q" base_Element="_9uDs4FsYEeqdy_5Uuqgu6Q"/>
+  <UMLLabProfile:Annotations xmi:id="_9uLosFsYEeqdy_5Uuqgu6Q" base_Element="_9uDs4FsYEeqdy_5Uuqgu6Q">
+    <annotations xmi:id="_9uLosVsYEeqdy_5Uuqgu6Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9uaSMFsYEeqdy_5Uuqgu6Q" base_Element="_9uZEEFsYEeqdy_5Uuqgu6Q"/>
+  <UMLLabProfile:Annotations xmi:id="_9ua5QFsYEeqdy_5Uuqgu6Q" base_Element="_9uZEEFsYEeqdy_5Uuqgu6Q">
+    <annotations xmi:id="_9ua5QVsYEeqdy_5Uuqgu6Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>
